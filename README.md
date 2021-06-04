@@ -6,7 +6,9 @@ Ceren Korkmaz 21995445<br>
 Alihan Karatatar 21904324<br>
 
 ### Subject: Poem Classification with Machine Learning and BERT
-We are building learning models to predict a poem's age (modern or renaissance) and poem's type (nature, love or mythology & folklore) using this [dataset](https://www.kaggle.com/ultrajack/modern-renaissance-poetry "Poems from poetryfoundation.org")
+We are building learning models to predict a poem's age (modern or renaissance) and poem's type (nature, love or mythology & folklore) using this [dataset](https://www.kaggle.com/ultrajack/modern-renaissance-poetry "Poems from poetryfoundation.org").
+
+Our video presentation can be found [here](https://www.youtube.com/watch?v=ArZzSyPeJuU "Poefier Video Presentation").
 
 
 ### shallow_learning.py
