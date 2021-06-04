@@ -73,7 +73,7 @@ python bert_deep_learning.py <file_path> <age_or_type> <learning_rate> <number_o
 
 <file_path> is the path of the .csv file<br>
 <age_or_type> is either age or type<br>
-<learning_rate> is a float value that supports scientific notation. Suggested value is 2e-5
+<learning_rate> is a float value that supports scientific notation. Suggested value is 2e-5<br>
 <number_of_epochs> is an integer. Suggested value is 25.
 
 Example execution:
