@@ -1,4 +1,4 @@
-## Hacettepe University Department of Computer Engineering BBM406 - Fundamentals of Machine Learning Term Project, Spring 2021
+## Hacettepe University Department of Computer Engineering BBM406 - Fundamentals of Machine Learning Term Project, Group 9: Poefier, Spring 2021
 
 ### Team Members:
 Atakan Yüksel 21627892<br>
