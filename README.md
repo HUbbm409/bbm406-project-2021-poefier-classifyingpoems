@@ -46,7 +46,7 @@ python shallow_learning.py all.csv age 20
 
 The accuracy results will be outputed to console window.
 
-### deep_learning_bert.py
+### bert_deep_learning.py
 We also tried to classify the said poems using deep learning, BERT to be exact. Bidirectional Encoder Representations from Transformers (BERT) is a Transformer-based machine learning technique for natural language processing (NLP) pre-training developed by Google. BERT is a pre-trained model that understands language, we are adding a final outer layer so it can use its understanding of language to predict poem ages and types.
 
 It has the following requirements:
@@ -66,9 +66,9 @@ conda install -c conda-forge transformers
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 
-deep_learning_bert.py can be run as shown below:
+bert_deep_learning.py can be run as shown below:
 ```python
-python deep_learning_bert.py <file_path> <age_or_type> <learning_rate> <number_of_epochs>
+python bert_deep_learning.py <file_path> <age_or_type> <learning_rate> <number_of_epochs>
 ```
 
 <file_path> is the path of the .csv file<br>
@@ -78,13 +78,13 @@ python deep_learning_bert.py <file_path> <age_or_type> <learning_rate> <number_o
 
 Example execution:
 ```python
-python deep_learning_bert.py all.csv age 2e-5 25
+python bert_deep_learning.py all.csv age 2e-5 25
 ```
 
-Epoch round, accuracy and training loss will be outputed to console.
+Round, accuracy and training loss will be outputed to console for each epoch.
 
 ### Conclusion
-Using shallow_learning.py and deep_learning_bert.py we achieved the following accuracy results:
+Using shallow_learning.py and bert_deep_learning.py we achieved the following accuracy results:
 
 Method | Type | Age
 --- | --- | ---
